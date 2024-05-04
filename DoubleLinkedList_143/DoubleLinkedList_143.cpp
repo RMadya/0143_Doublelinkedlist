@@ -109,4 +109,8 @@ void deleteNode()
         START = START->next;
         if (START != NULL)
         {
-            
+            START->prev = NULL;
+        }
+    }
+
+    
